@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>nextarrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5,11.8697962 L3.78002216,0.62239809 C2.9152898,-0.20746603 1.51328163,-0.20746603 0.64854927,0.62239809 C-0.21618309,1.45226221 -0.21618309,2.79773779 0.64854927,3.62760191 L13.9342636,16.3776019 C14.7989959,17.207466 16.2010041,17.207466 17.0657364,16.3776019 L30.3514507,3.62760191 C31.2161831,2.79773779 31.2161831,1.45226221 30.3514507,0.62239809 C29.4867184,-0.20746603 28.0847102,-0.20746603 27.2199778,0.62239809 L15.5,11.8697962 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TATC-01-Copy" transform="translate(-173.000000, -1422.000000)">
+            <g id="nextarrow" transform="translate(173.000000, 1422.000000)">
+                <circle id="Oval" stroke="#2E2F7D" stroke-width="4" cx="31" cy="31" r="29"></circle>
+                <g id="chevron-down" transform="translate(16.000000, 23.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#2E2F7D" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

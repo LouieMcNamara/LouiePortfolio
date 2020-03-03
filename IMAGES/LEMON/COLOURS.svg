@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="70px" viewBox="0 0 146 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>COLOURS</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lemon" transform="translate(-399.000000, -672.000000)">
+            <g id="COLOURS" transform="translate(399.000000, 672.000000)">
+                <polygon id="Fill-23" fill="#005A4A" points="-1.13686838e-13 69.441 69.441 69.441 69.441 1.27897692e-13 -1.13686838e-13 1.27897692e-13"></polygon>
+                <text id="#2F327B" font-family="Mallory-Book, Mallory" font-size="5.7662" font-weight="300" letter-spacing="0.1" fill="#EDD3DA">
+                    <tspan x="2.1313" y="63.7381883">#2</tspan>
+                    <tspan x="9.5217514" y="63.7381883" letter-spacing="0.0884676">F</tspan>
+                    <tspan x="12.723967" y="63.7381883" letter-spacing="0.07059238">3</tspan>
+                    <tspan x="15.925606" y="63.7381883" letter-spacing="-0.0383888">2</tspan>
+                    <tspan x="19.0759258" y="63.7381883">7B</tspan>
+                </text>
+                <polygon id="Fill-26" fill="#EDD3DA" points="76.394 69.441 145.835 69.441 145.835 1.42108547e-14 76.394 1.42108547e-14"></polygon>
+                <text id="#EDA29B" font-family="Mallory-Book, Mallory" font-size="5.7662" font-weight="300" letter-spacing="0.1" fill="#005A4A">
+                    <tspan x="79.062" y="63.7361883">#E</tspan>
+                    <tspan x="86.4928148" y="63.7361883" letter-spacing="-0.07240938">D</tspan>
+                    <tspan x="90.762354" y="63.7361883">A</tspan>
+                    <tspan x="95.4118858" y="63.7361883" letter-spacing="0.013507">2</tspan>
+                    <tspan x="98.6659972" y="63.7361883">9B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
