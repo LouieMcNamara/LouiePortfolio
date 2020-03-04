@@ -88,8 +88,8 @@ section.home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 40rem;
-    /* margin: 10%; */
     grid-gap: 30px;
+    align-content: center;
 }
 .shapeContainer{
   background-image: url(./IMAGES/WavePattern.svg);
@@ -165,19 +165,31 @@ section.project{
 }
 .pSquare img{
    padding: 25px;
-   width: 400px;
-    
+   width: 400px; 
+}
+.textContainer{
+    width: 400px;
+    margin: auto;
+}
+.pSquare{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 25px 15px 0px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 .pSquare h5{
     text-transform: uppercase;
     font-weight: 400;
     color: #2E2F7D;
     padding-left: 25px;
+    text-align: left;
 }
-.pSquare{
-    background-color: rgb(255, 255, 255);
-    margin: 10px 25px 15px 0px;
-    padding-bottom: 25px;
+.pSquare h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2E2F7D;
+    padding-left: 25px;
+    text-align: left;
 }
 .folioButtonContainer{
     height: 5vh;
@@ -202,47 +214,41 @@ section.project{
     text-align: center;
 }
 
-#backToTop {
+#nextProject {
     position: fixed;
     bottom: 10%;
     right: 10%;
     float: right;
     font-size: 12px;
+    background-color: none;
     border: none;
-    background-color: #2E2F7D;
-    border-radius: 4px;
     padding: 10px 30px;
 }
-#backToTop a{
-    color: #F7F7F7;
+#nextProject a{
     text-decoration: none;
     text-align: center;
 }
-.next{
-    height: 50px;
-}
-.next img{
-    float: right;
-    max-width: 45px;
-}
-.next img:hover{
-    max-width: 47px;
-}
-#backToProjects {
+#prevProject {
     position: fixed;
-    bottom: 5%;
-    right: 10%;
-    float: right;
+    bottom: 10%;
+    left: 10%;
+    float: left;
     font-size: 12px;
+    background-color: none;
     border: none;
-    background-color: #2E2F7D;
-    border-radius: 4px;
     padding: 10px 30px;
 }
-#backToProjects a{
-    color: #F7F7F7;
+#nextProject a{
     text-decoration: none;
     text-align: center;
+}
+.navButtonContainer img{
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.693);
+    border-radius: 50%;
+}
+button{
+    background-color: rgba(255, 255, 255, 0);
 }
 
 
@@ -262,15 +268,35 @@ footer h3{
     font-weight: 400;
 }
 
+/* TABLET */
+@media screen and (max-width: 1260px){
+    body{
+        overflow-x: hidden;
+    }
+    .contentsContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: start;
+    }
+    .contents{
+        height: 120vh;
+        margin: 2% 10%;
+    }
+}
+
+
+
 /* MOBILE */
 @media screen and (max-width: 768px){
     h1{
         color: #2E2F7D;
         font-size: 60px;
+        line-height: 70px;
     }
     h2{
         color: #2E2F7D;
-        font-size: 50px;
+        font-size: 40px;
+        line-height: 50px;
     }
     span{
         color: #2E2F7D;
@@ -282,13 +308,87 @@ footer h3{
         height: 40rem;
     }
     .shapeContainer{
-        background-image: url(./IMAGES/WavePattern.svg);
-        background-position: left;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        height: 25rem;
+        display: none;
+    }
+    .contents{
+        height: 220vh;
+        margin: 2% 10%;
+    }
+    .contentsContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: start;
+    }
+    .textContainer{
+        width: 350px;
+        margin: auto;
+    }
+    .pSquare img{
+       padding: 25px;
+       width: 350px; 
+    }
+    .pSquare h5{
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #2E2F7D;
+        padding-left: 25px;
+    }
+    .pSquare{
+        background-color: rgb(255, 255, 255);
+        margin: 10px 25px 15px 0px;
+        padding-bottom: 25px;
+    }
+    .projectTitle{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-transform: uppercase;
+        padding: 5px 0;
+        border-bottom: 1px solid #2E2F7D;
+        margin: 5% 0px;
+    }
+    .projectTitle h5{
+        text-align: start;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    .project h6{
+        color: #808080;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    #nextProject {
+        position: fixed;
+        bottom: 5%;
+        right: 0;
+        float: right;
+        font-size: 12px;
+        background-color: none;
+        border: none;
+        padding: 10px 30px;
+    }
+    #nextProject a{
+        text-decoration: none;
+        text-align: center;
+    }
+    #prevProject {
+        position: fixed;
+        bottom: 5%;
+        left: 0;
+        float: left;
+        font-size: 12px;
+        background-color: none;
+        border: none;
+        padding: 10px 30px;
+    }
+    #nextProject a{
+        text-decoration: none;
+        text-align: center;
+    }
+    .navButtonContainer img{
+        width: 35px;
+        background-color: rgba(255, 255, 255, 0.693);
+        border-radius: 50%;
     }
     footer{
         border-top: 1px solid #2E2F7D;
@@ -298,11 +398,6 @@ footer h3{
 }
    
 
-/* TABLET */
-@media screen and (max-width: 1260px){
-    body{
-        overflow-x: hidden;
-    }
-}
+
 
 
