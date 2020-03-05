@@ -310,7 +310,8 @@ footer h3{
     .homepageContent{
         display: grid;
         grid-template-columns: 1fr;
-        height: 20rem;
+        grid-gap: 0;
+        height: 30rem;
     }
     .shapeContainer{
         display: none;
