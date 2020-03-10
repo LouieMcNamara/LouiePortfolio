@@ -155,7 +155,7 @@ section.project{
 }
 
 .contents{
-    height: 80vh;
+    /* height: 80vh; */
     margin: 2% 10%;
 }
 .contentsContainer{
@@ -243,7 +243,7 @@ section.project{
     text-align: center;
 }
 .navButtonContainer img{
-    width: 35px;
+    width: 50px;
     background-color: rgba(255, 255, 255, 0.693);
     border-radius: 50%;
 }
@@ -279,7 +279,7 @@ footer h3{
         justify-content: start;
     }
     .contents{
-        height: 120vh;
+        /* height: 120vh; */
         margin: 2% 10%;
     }
 }
@@ -317,7 +317,7 @@ footer h3{
         display: none;
     }
     .contents{
-        height: 415vh;
+        /* height: 415vh; */
         margin: 2% 10%;
     }
     .contentsContainer{
