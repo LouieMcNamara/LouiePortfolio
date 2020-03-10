@@ -163,6 +163,9 @@ section.project{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
 }
+.contentsContainer a{
+    text-decoration: none;
+}
 .pSquare img{
    padding: 25px;
    width: 400px; 
