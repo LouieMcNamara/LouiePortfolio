@@ -258,7 +258,7 @@ button{
 /* FOOTER */
 footer{
     border-top: 1px solid #2E2F7D;
-    margin: 0 10%;
+    margin: 0 10% 5% 10%;
     position: relative;
 }
 footer h3{
@@ -365,7 +365,7 @@ footer h3{
     }
     #nextProject {
         position: fixed;
-        bottom: 8%;
+        bottom: 10%;
         right: 0;
         float: right;
         font-size: 12px;
@@ -379,7 +379,7 @@ footer h3{
     }
     #prevProject {
         position: fixed;
-        bottom: 8%;
+        bottom: 10%;
         left: 0;
         float: left;
         font-size: 12px;
