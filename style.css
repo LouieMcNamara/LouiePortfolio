@@ -365,7 +365,7 @@ footer h3{
     }
     #nextProject {
         position: fixed;
-        bottom: 5%;
+        bottom: 8%;
         right: 0;
         float: right;
         font-size: 12px;
@@ -379,7 +379,7 @@ footer h3{
     }
     #prevProject {
         position: fixed;
-        bottom: 5%;
+        bottom: 8%;
         left: 0;
         float: left;
         font-size: 12px;
